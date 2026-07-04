@@ -1,5 +1,6 @@
 import { BookOpen, Code2, Cpu, Target, Wrench, Zap } from "lucide-react";
 import Image from "next/image";
+import hatimImage2 from "../public/hatim-2.png";
 
 export function About() {
   const skillCategories = [
@@ -77,6 +78,7 @@ export function About() {
           <div className="relative h-96 lg:h-full min-h-96 lg:min-h-screen flex items-center">
             <Image
               src="/hatim-2.png"
+              src={hatimImage2}
               alt="Hatim Ahmed Hassan"
               fill
               className="object-cover rounded-xl"
