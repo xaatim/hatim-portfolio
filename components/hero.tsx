@@ -65,7 +65,6 @@ export function Hero() {
                 alt="Hatim Ahmed Hassan - Robotics Engineer"
                 fill
                 className="object-cover rounded-xl"
-                className="object-cover rounded-xl grayscale"
                 priority
               />
             </div>
