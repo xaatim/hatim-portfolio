@@ -41,6 +41,9 @@ export const metadata: Metadata = {
     siteName: "Hatim Ahmed Hassan Portfolio",
     type: "website",
   },
+  verification: {
+    google: "2iSkK1HVVNvmQJbtdT7LNWpkBH7i3laKthUpR2jmwnw",
+  },
 };
 
 export const viewport: Viewport = {
