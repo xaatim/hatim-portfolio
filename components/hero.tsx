@@ -1,4 +1,5 @@
 import Image from "next/image";
+import hatimImage1 from "../public/hatim-1.png";
 
 export function Hero() {
   return (
@@ -60,10 +61,11 @@ export function Hero() {
           <div className="relative h-96 lg:h-full min-h-96 lg:min-h-screen flex items-center">
             <div className="relative w-full h-full max-h-96 lg:max-h-none">
               <Image
-                src="/hatim-1.png"
+                src={hatimImage1}
                 alt="Hatim Ahmed Hassan - Robotics Engineer"
                 fill
                 className="object-cover rounded-xl"
+                className="object-cover rounded-xl grayscale"
                 priority
               />
             </div>

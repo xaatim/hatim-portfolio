@@ -77,7 +77,6 @@ export function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-24">
           <div className="relative h-96 lg:h-full min-h-96 lg:min-h-screen flex items-center">
             <Image
-              src="/hatim-2.png"
               src={hatimImage2}
               alt="Hatim Ahmed Hassan"
               fill
