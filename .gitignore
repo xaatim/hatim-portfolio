@@ -9,7 +9,6 @@ __v0_jsx-dev-runtime.ts
 # Dependencies
 node_modules/
 .pnpm-store/
-pnpm-lock.yaml
 
 # Next.js
 .next/
