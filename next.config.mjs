@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/hatim-portfolio',
+  assetPrefix: '/hatim-portfolio',
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -9,5 +11,4 @@ const nextConfig = {
   },
   trailingSlash: true,
 }
-
 export default nextConfig
